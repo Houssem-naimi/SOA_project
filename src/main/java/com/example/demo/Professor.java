@@ -13,7 +13,7 @@ import jakarta.persistence.Id;
 
 /**
  *
- * @author nada haninou
+
  */
 @Entity
 public class Professor {
@@ -25,6 +25,7 @@ public class Professor {
     private String lastName;
     private String email;
     private String phoneNumber;
+
     private String department; 
     public Professor() {
     }

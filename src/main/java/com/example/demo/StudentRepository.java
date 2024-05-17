@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  *
- * @author nada haninou
+ * @author nada boulares
  */
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {

@@ -29,12 +29,12 @@ public class DepartmentService {
     }
 
     public Department createDepartment(Department department) {
-        // Ajoutez ici la logique de validation ou de traitement avant d'enregistrer le département
+
         return departmentRepository.save(department);
     }
 
     public void updateDepartment(Department department) {
-        // Ajoutez ici la logique de validation ou de traitement avant de mettre à jour le département
+
         departmentRepository.save(department);
     }
 

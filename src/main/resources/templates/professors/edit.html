@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Éditer un Professeur</title>
+    <title>Éditer un enseignant</title>
     <!-- Intégration de Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
@@ -12,7 +12,7 @@
 <body>
 
 <div class="container mt-5">
-    <h2 class="mb-4">Éditer un Professeur</h2>
+    <h2 class="mb-4">Éditer un enseignant</h2>
 
     <form th:action="@{/professors/edit}" method="post" th:object="${professor}">
         <input type="hidden" th:field="*{id}"/>
